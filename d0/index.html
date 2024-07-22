@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+
+    <title>Giriş Sayfası</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <div class="logo">
+          <img
+            src="logo.png"
+            alt="image"
+            style="background-color: black; width: 400px; height: auto"
+          />
+        </div>
+        <div class="loginForm">
+          <form
+            class="loginInput"
+            type="text"
+            action="homePage.html"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="username"
+              placeholder="Kullanıcı Adı"
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              placeholder="Şifre"
+              required
+            />
+            <button type="submit">Giriş Yap</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
