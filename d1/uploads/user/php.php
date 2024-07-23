@@ -1,0 +1,3 @@
+<?
+echo "File Upload Detected!"
+?>
